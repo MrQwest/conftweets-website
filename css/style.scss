@@ -10,3 +10,13 @@
 
 
 /* SITE STYLES ================================= */
+
+body {
+	max-width: 60em;
+	width:95%;
+	margin: 0 auto;
+	}
+
+#conflist li:first-of-type {
+	font-size: 2em;
+	}

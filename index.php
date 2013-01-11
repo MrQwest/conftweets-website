@@ -33,7 +33,9 @@
 	<p>Keep up to date on the twitter-chatter of the following web conferences. Hashtag your tweets with the appropriate hashtags to join in the conversation. See the build-up before each conference and follow along during the day!</p>
 
 	<ul id="conflist">
-		<li data-time="2013-01-23">New Adventures in Web Design</li>
+		<li data-etime="2013-04-19">jQuery UK, Oxford</li>
+		<li data-etime="2013-05-04">Points 4, Brighton</li>
+		<li data-etime="2013-01-23">New Adventures in Web Design</li>
 	</ul>
 
 	<footer>
