@@ -3,7 +3,7 @@
 
 /* VARIABLES =================================== */
 
-
+$brand: rgba(72,105,153,1);
 
 /* MIXINS ====================================== */
 
@@ -11,12 +11,41 @@
 
 /* SITE STYLES ================================= */
 
+html {
+	background-color: lighten($brand, 40%);
+	}
+
 body {
 	max-width: 60em;
 	width:95%;
 	margin: 0 auto;
+	color: darken($brand, 20%);
 	}
 
-#conflist li:first-of-type {
-	font-size: 2em;
+h1 {
+	text-align: center;
+	padding: 2em;
+	}
+
+h1+p {
+	padding-top: 2em;
+	line-height: 1.4;
+	}
+
+
+#conflist li {
+	border-top: 1px solid darken($brand,30%);
+	padding: 2em 1em;
+	&:first-of-type {
+		h2 {
+			font-size: 2em;
+			}
+		border: none;
+		}
+	h2 {
+		font-weight: bold;
+		}
+	p {
+		padding-top: 1em;
+		}
 	}

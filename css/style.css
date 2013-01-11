@@ -33,10 +33,31 @@ table {
 /* VARIABLES =================================== */
 /* MIXINS ====================================== */
 /* SITE STYLES ================================= */
+html {
+  background-color: #c8d4e5; }
+
 body {
   max-width: 60em;
   width: 95%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #273954; }
 
-#conflist li:first-of-type {
-  font-size: 2em; }
+h1 {
+  text-align: center;
+  padding: 2em; }
+
+h1 + p {
+  padding-top: 2em;
+  line-height: 1.4; }
+
+#conflist li {
+  border-top: 1px solid #172231;
+  padding: 2em 1em; }
+  #conflist li:first-of-type {
+    border: none; }
+    #conflist li:first-of-type h2 {
+      font-size: 2em; }
+  #conflist li h2 {
+    font-weight: bold; }
+  #conflist li p {
+    padding-top: 1em; }

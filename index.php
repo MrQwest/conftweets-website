@@ -27,15 +27,44 @@
 	<script type="text/javascript" src="js/jq.tinysort.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+	<script type="text/javascript" src="//use.typekit.net/euc8ntw.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<h1>conftweets.com</h1>
+	<h1><img src="img/conftweets.png" alt="Conftweets.com" /></h1>
 	<p>Keep up to date on the twitter-chatter of the following web conferences. Hashtag your tweets with the appropriate hashtags to join in the conversation. See the build-up before each conference and follow along during the day!</p>
 
 	<ul id="conflist">
-		<li data-etime="2013-04-19">jQuery UK, Oxford</li>
-		<li data-etime="2013-05-04">Points 4, Brighton</li>
-		<li data-etime="2013-01-23">New Adventures in Web Design</li>
+		<li data-etime="2013-04-19">
+			<h2>jQuery UK</h2>
+			<p>
+				<span class="location">Oxford</span>, 
+				<span class="date">19th April, 2013</span>, 
+				<span class="webaddress"><a href="http://events.jquery.org/2013/uk/" title="Conference website">http://events.jquery.org/2013/uk/</a></span>, 
+				<span class="twitteracct"><a href="http://twitter.com/jquk" title="conference twitter acct">@jquk</a></span>
+			</p>
+		</li>
+
+		<li data-etime="2013-05-04">
+			<h2>Points</h2>
+			<p>
+				<span class="location">Brighton</span>, 
+				<span class="date">4th May, 2013</span>, 
+				<span class="webaddress"><a href="http://pointsbrighton.co.uk" title="Conference website">http://pointsbrighton.co.uk</a></span>, 
+				<span class="twitteracct"><a href="http://twitter.com/pointsbrighton" title="conference twitter acct">@pointsbrighton</a></span>
+			</p>
+		</li>
+
+		<li data-etime="2013-01-23">
+			<h2>New Adventures 2013</h2>
+			<p>
+				<span class="location">Nottingham</span>, 
+				<span class="date">23rd January, 2013</span>, 
+				<span class="webaddress"><a href="http://newadventuresconf.com" title="Conference website">http://newadventuresconf.com</a></span>, 
+				<span class="twitteracct"><a href="http://twitter.com/naconf" title="conference twitter acct">@naconf</a></span>
+			</p>
+		</li>
 	</ul>
 
 	<footer>
