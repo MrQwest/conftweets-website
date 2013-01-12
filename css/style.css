@@ -54,31 +54,41 @@ h1 + p {
 #conflist li {
   border: 1px solid #b7c6dd;
   border-radius: .4em;
-  margin: 1em 0em;
-  box-shadow: 0 0 1em #b7c6dd;
+  margin: 2em 0em;
+  box-shadow: inset 0 0.5em 2em #ebeff5, 0 0 1em #b7c6dd;
   background-color: #d9e1ed;
-  padding: 1em 1em;
+  padding: 1em 1em 0;
   text-shadow: 1px 1px 0px #ebeff5;
   -webkit-transition: all 0.05s ease-in-out;
   -moz-transition: all 0.05s ease-in-out;
   transition: all 0.05s ease-in-out; }
   #conflist li:hover {
-    background-color: #ebeff5; }
+    background-color: #e4eaf2;
+    position: relative;
+    bottom: 2px;
+    box-shadow: inset 0 0.5em 2em white, 0 0.2em 1em #a5b9d5; }
   #conflist li:first-of-type {
-    border: none; }
+    border: none;
+    background-color: #e0e7f1; }
     #conflist li:first-of-type h2 {
       font-size: 2em; }
   #conflist li h2 {
     font-family: "ff-dax-compact-web-pro",sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: .2em 0; }
   #conflist li p {
-    padding-top: 1em;
-    font-size: 0.8em;
-    padding: 1em;
-    margin: 1em -1.2em 0;
+    font-size: 0.7em;
+    padding: 0.75em 1.3em;
+    margin: 1em -1.5em -0.2em -1.4em;
     border-top: 1px solid #d9e1ed;
     border-bottom: 1px solid #c8d4e5;
-    background-color: #ebeff5; }
+    background-color: #273954;
+    border-bottom-left-radius: .55em;
+    border-bottom-right-radius: .55em;
+    color: #d2dcea;
+    text-shadow: 0 0 0; }
+    #conflist li p a {
+      color: #ebeff5; }
   #conflist li .ss-icon {
     margin-right: 0.5em;
     position: relative;

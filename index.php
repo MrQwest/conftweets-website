@@ -45,7 +45,7 @@
 			<p>
 				<span class="location"><i class="ss-icon">location</i>Oxford</span>
 				<span class="date"><i class="ss-icon">date</i>19th April, 2013</span>
-				<span class="webaddress"><a href="http://events.jquery.org/2013/uk/" title="Conference website"><i class="ss-icon">link</i>http://events.jquery.org/2013/uk/</a></span>
+				<span class="webaddress"><a href="http://events.jquery.org/2013/uk/" title="Conference website"><i class="ss-icon">link</i>events.jquery.org/2013/uk/</a></span>
 				<span class="twitteracct"><a href="http://twitter.com/jquk" title="conference twitter acct"><i class="ss-icon ss-social">twitter</i>@jquk</a></span>
 			</p>
 		</li>
@@ -55,7 +55,7 @@
 			<p>
 				<span class="location"><i class="ss-icon">location</i>Brighton</span>
 				<span class="date"><i class="ss-icon">date</i>4th May, 2013</span>
-				<span class="webaddress"><i class="ss-icon">link</i><a href="http://pointsbrighton.co.uk" title="Conference website">http://pointsbrighton.co.uk</a></span>
+				<span class="webaddress"><i class="ss-icon">link</i><a href="http://pointsbrighton.co.uk" title="Conference website">pointsbrighton.co.uk</a></span>
 				<span class="twitteracct"><i class="ss-icon ss-social">twitter</i><a href="http://twitter.com/pointsbrighton" title="conference twitter acct">@pointsbrighton</a></span>
 			</p>
 		</li>
@@ -65,7 +65,7 @@
 			<p>
 				<span class="location"><i class="ss-icon">location</i>Nottingham</span>
 				<span class="date"><i class="ss-icon">date</i>23rd January, 2013</span>
-				<span class="webaddress"><i class="ss-icon">link</i><a href="http://newadventuresconf.com" title="Conference website">http://newadventuresconf.com</a></span>
+				<span class="webaddress"><i class="ss-icon">link</i><a href="http://newadventuresconf.com" title="Conference website">newadventuresconf.com</a></span>
 				<span class="twitteracct"><i class="ss-icon ss-social">twitter</i><a href="http://twitter.com/naconf" title="conference twitter acct">@naconf</a></span>
 			</p>
 		</li>
