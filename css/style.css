@@ -37,27 +37,69 @@ html {
   background-color: #c8d4e5; }
 
 body {
-  max-width: 60em;
+  max-width: 40em;
   width: 95%;
   margin: 0 auto;
-  color: #273954; }
+  color: #273954;
+  font-family: sans-serif; }
 
 h1 {
   text-align: center;
-  padding: 2em; }
+  padding: 4em 2em 2em; }
 
 h1 + p {
   padding-top: 2em;
   line-height: 1.4; }
 
 #conflist li {
-  border-top: 1px solid #172231;
-  padding: 2em 1em; }
+  border: 1px solid #b7c6dd;
+  border-radius: .4em;
+  margin: 1em 0em;
+  box-shadow: 0 0 1em #b7c6dd;
+  background-color: #d9e1ed;
+  padding: 1em 1em;
+  text-shadow: 1px 1px 0px #ebeff5;
+  -webkit-transition: all 0.05s ease-in-out;
+  -moz-transition: all 0.05s ease-in-out;
+  transition: all 0.05s ease-in-out; }
+  #conflist li:hover {
+    background-color: #ebeff5; }
   #conflist li:first-of-type {
     border: none; }
     #conflist li:first-of-type h2 {
       font-size: 2em; }
   #conflist li h2 {
+    font-family: "ff-dax-compact-web-pro",sans-serif;
     font-weight: bold; }
   #conflist li p {
-    padding-top: 1em; }
+    padding-top: 1em;
+    font-size: 0.8em;
+    padding: 1em;
+    margin: 1em -1.2em 0;
+    border-top: 1px solid #d9e1ed;
+    border-bottom: 1px solid #c8d4e5;
+    background-color: #ebeff5; }
+  #conflist li .ss-icon {
+    margin-right: 0.5em;
+    position: relative;
+    top: 2px; }
+  #conflist li .location, #conflist li .date, #conflist li .webaddress {
+    padding-right: 2em; }
+
+a {
+  color: #385176;
+  text-decoration: none;
+  -webkit-transition: all 0.05s ease-in-out;
+  -moz-transition: all 0.05s ease-in-out;
+  transition: all 0.05s ease-in-out; }
+  a:hover {
+    color: black; }
+
+footer {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 2px solid #a5b9d5;
+  margin-top: 1em;
+  padding: 2em;
+  color: #a5b9d5; }

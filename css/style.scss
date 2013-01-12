@@ -16,15 +16,16 @@ html {
 	}
 
 body {
-	max-width: 60em;
+	max-width: 40em;
 	width:95%;
 	margin: 0 auto;
 	color: darken($brand, 20%);
+	font-family: sans-serif;
 	}
 
 h1 {
 	text-align: center;
-	padding: 2em;
+	padding: 4em 2em 2em;
 	}
 
 h1+p {
@@ -34,8 +35,17 @@ h1+p {
 
 
 #conflist li {
-	border-top: 1px solid darken($brand,30%);
-	padding: 2em 1em;
+	border: 1px solid lighten($brand,35%);
+	border-radius:.4em;
+	margin: 1em 0em;
+	box-shadow: 0 0 1em lighten($brand, 35%);
+	background-color: lighten($brand, 45%);
+	padding: 1em 1em;
+	text-shadow: 1px 1px 0px lighten($brand, 50%);
+	@include transition(0.05s);
+	&:hover {
+		background-color: lighten($brand, 50%);
+		}
 	&:first-of-type {
 		h2 {
 			font-size: 2em;
@@ -43,9 +53,43 @@ h1+p {
 		border: none;
 		}
 	h2 {
+		font-family: "ff-dax-compact-web-pro",sans-serif;
 		font-weight: bold;
 		}
 	p {
 		padding-top: 1em;
+		font-size:0.8em;
+		padding: 1em;
+		margin: 1em -1.2em 0;
+		border-top: 1px solid lighten($brand, 45%);
+		border-bottom: 1px solid lighten($brand, 40%);
+		background-color: lighten($brand, 50%);
+		}
+	.ss-icon {
+		margin-right: 0.5em;
+		position: relative;
+		top:2px;
+		}
+	.location, .date, .webaddress {
+		padding-right: 2em;
 		}
 	}
+
+a {
+	color: darken($brand, 10%);
+	text-decoration: none;
+	@include transition(0.05s);
+	&:hover {
+		color: darken($brand, 80%);
+		}
+	}
+
+footer {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	border-top:2px solid lighten($brand, 30%);
+	margin-top:1em;
+	padding: 2em;
+	color: lighten($brand, 30%);
+}
