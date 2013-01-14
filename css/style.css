@@ -34,22 +34,41 @@ table {
 /* MIXINS ====================================== */
 /* SITE STYLES ================================= */
 html {
-  background-color: #c8d4e5; }
+  background-color: #c8d4e5;
+  background-image: url(http://conftweets.com/img/noise.png); }
 
 body {
-  max-width: 40em;
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
   color: #273954;
   font-family: sans-serif; }
 
 h1 {
   text-align: center;
-  padding: 4em 2em 2em; }
+  padding: 4em 2em 3.5em;
+  display: block;
+  width: 100%;
+  background-color: black;
+  background-color: #151f2d;
+  background-image: -moz-linear-gradient(top, #1f2d42, #070a0e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1f2d42), to(#070a0e));
+  background-image: -webkit-linear-gradient(top, #1f2d42, #070a0e);
+  background-image: -o-linear-gradient(top, #1f2d42, #070a0e);
+  background-image: linear-gradient(to bottom, #1f2d42, #070a0e);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1F2D42', endColorstr='#FF070A0E', GradientType=0); }
 
-h1 + p {
+.maincontent {
+  max-width: 40em;
+  background-color: #c8d4e5;
+  margin: 0 auto;
+  width: 95%; }
+
+.maincontent p {
   padding-top: 2em;
   line-height: 1.4; }
+
+#conflist ~ a {
+  display: block; }
 
 #conflist li {
   border: 1px solid #b7c6dd;
@@ -78,7 +97,7 @@ h1 + p {
     padding: .2em 0; }
   #conflist li p {
     font-size: 0.7em;
-    padding: 0.75em 1.3em;
+    padding: 0.25em 1.3em;
     margin: 1em -1.5em -0.2em -1.4em;
     border-top: 1px solid #d9e1ed;
     border-bottom: 1px solid #c8d4e5;
@@ -86,9 +105,12 @@ h1 + p {
     border-bottom-left-radius: .55em;
     border-bottom-right-radius: .55em;
     color: #d2dcea;
-    text-shadow: 0 0 0; }
+    text-shadow: 0 0 0;
+    line-height: 2; }
     #conflist li p a {
       color: #ebeff5; }
+      #conflist li p a:hover {
+        text-decoration: underline; }
   #conflist li .ss-icon {
     margin-right: 0.5em;
     position: relative;

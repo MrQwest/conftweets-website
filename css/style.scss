@@ -13,26 +13,39 @@ $brand: rgba(72,105,153,1);
 
 html {
 	background-color: lighten($brand, 40%);
+	background-image: url(http://conftweets.com/img/noise.png);
 	}
 
 body {
-	max-width: 40em;
-	width:95%;
-	margin: 0 auto;
+	width: 100%;
 	color: darken($brand, 20%);
 	font-family: sans-serif;
 	}
 
 h1 {
 	text-align: center;
-	padding: 4em 2em 2em;
+	padding: 4em 2em 3.5em;
+	display: block;
+	width: 100%;
+	background-color: darken($brand, 45%);
+	@include gradient-vertical(darken($brand, 25%),darken($brand, 40%));
 	}
 
-h1+p {
+.maincontent {
+	max-width: 40em;
+	background-color: lighten($brand, 40%);
+	margin: 0 auto;
+	width: 95%;
+	}
+
+.maincontent p {
 	padding-top: 2em;
 	line-height: 1.4;
 	}
 
+#conflist~a {
+	display: block;
+	}
 
 #conflist li {
 	border: 1px solid lighten($brand,35%);
@@ -63,7 +76,7 @@ h1+p {
 		}
 	p {
 		font-size:0.7em;
-		padding: 0.75em 1.3em;
+		padding: 0.25em 1.3em;
 		margin: 1em -1.5em -0.2em -1.4em;
 		border-top: 1px solid lighten($brand, 45%);
 		border-bottom: 1px solid lighten($brand, 40%);
@@ -72,8 +85,12 @@ h1+p {
 		border-bottom-right-radius: .55em;
 		color: lighten($brand, 43%);
 		text-shadow: 0 0 0;
+		line-height:2;
 		a {
 			color: lighten($brand, 50%);
+			&:hover {
+				text-decoration: underline;
+				}
 			}
 		}
 	.ss-icon {
