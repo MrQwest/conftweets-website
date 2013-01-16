@@ -51,13 +51,13 @@
 				</p>
 			</li>
 
-			<a href="/points"><li data-etime="2013-05-04">
-				<h2><a href="/points">Points</a></h2>
+			<a href="/points"><li data-etime="2013-03-21">
+				<h2><a href="/points">Milton Keynes Geeknight</a></h2>
 				<p>
-					<span class="location"><i class="ss-icon">location</i>Brighton</span>
-					<span class="date"><i class="ss-icon">date</i>4th May, 2013</span>
-					<span class="webaddress"><i class="ss-icon">link</i><a href="http://pointsbrighton.co.uk" title="Conference website">pointsbrighton.co.uk</a></span>
-					<span class="twitteracct"><i class="ss-icon ss-social">twitter</i><a href="http://twitter.com/pointsbrighton" title="conference twitter acct">@pointsbrighton</a></span>
+					<span class="location"><i class="ss-icon">location</i>Milton Keynes</span>
+					<span class="date"><i class="ss-icon">date</i>21st Mar, 2013</span>
+					<span class="webaddress"><i class="ss-icon">link</i><a href="http://mkgeeknight.co.uk" title="Conference website">mkgeeknight.co.uk</a></span>
+					<span class="twitteracct"><i class="ss-icon ss-social">twitter</i><a href="http://twitter.com/mkgeeknight" title="conference twitter acct">@mkgeeknight</a></span>
 				</p>
 			</li>
 		</a>
