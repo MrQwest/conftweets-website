@@ -75,7 +75,7 @@
 	</div>
 
 	<footer>
-		<p>2011-<?php echo date(Y);?> MrQwest</p>
+		<p>2011-<?php echo date(Y);?> <a href="http://mrqwest.co.uk" title="A Croydon Web Designer">MrQwest</a></p>
 	</footer>
 </body>
 </html>

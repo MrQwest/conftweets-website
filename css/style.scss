@@ -44,7 +44,7 @@ h1 {
 	}
 
 .maincontent p {
-	padding-top: 5em;
+	padding: 5em 1em 1em;
 	font-size: 1em;
 	line-height: 1.4;
 	text-shadow: 1px 1px 0 lighten($brand, 45%);
@@ -120,7 +120,7 @@ a {
 	}
 
 footer {
-	width: 50%;
+	width: 40%;
 	margin: 0 auto;
 	text-align: center;
 	border-top:2px solid lighten($brand, 30%);
