@@ -52,7 +52,7 @@
 			</li>
 
 			<a href="/points"><li data-etime="2013-03-21">
-				<h2><a href="/points">Milton Keynes Geeknight</a></h2>
+				<h2><a href="/mkgn">Milton Keynes Geeknight</a></h2>
 				<p>
 					<span class="location"><i class="ss-icon">location</i>Milton Keynes</span>
 					<span class="date"><i class="ss-icon">date</i>21st Mar, 2013</span>
