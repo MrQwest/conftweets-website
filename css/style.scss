@@ -24,23 +24,30 @@ body {
 
 h1 {
 	text-align: center;
-	padding: 4em 2em 3.5em;
+	padding: 2em 0em 1.5em;
 	display: block;
 	width: 100%;
 	background-color: darken($brand, 45%);
+	font-style: italic;
+	font-family: "jubilat", sans-serif;
+	color: lighten($brand, 37%);
+	font-size: 2.6em;
+	text-shadow: 0 0 1em darken($brand, 60%);
 	@include gradient-vertical(darken($brand, 25%),darken($brand, 40%));
+	box-shadow:0 -0.2em 1em darken($brand, 40%);
 	}
 
 .maincontent {
 	max-width: 40em;
-	background-color: lighten($brand, 40%);
 	margin: 0 auto;
 	width: 95%;
 	}
 
 .maincontent p {
-	padding-top: 2em;
+	padding-top: 5em;
+	font-size: 1em;
 	line-height: 1.4;
+	text-shadow: 1px 1px 0 lighten($brand, 45%);
 	}
 
 #conflist~a {

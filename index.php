@@ -35,7 +35,7 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<h1><img src="img/conftweets.png" alt="Conftweets.com" /></h1>
+	<h1>conftweets.com</h1>
 	<div class="maincontent">
 		<p>Keep up to date on the twitter-chatter of the following web conferences. Hashtag your tweets with the appropriate hashtags to join in the conversation. See the build-up before each conference and follow along during the day!</p>
 
