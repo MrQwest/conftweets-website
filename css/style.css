@@ -34,13 +34,14 @@ table {
 /* MIXINS ====================================== */
 /* SITE STYLES ================================= */
 html {
-  background-color: #ebeff5;
-  background-image: url(http://conftweets.com/img/noise.png); }
+  background-color: #ffffff;
+ /* background-image: url(http://conftweets.com/img/noise.png);*/ }
 
 body {
   width: 100%;
   color: #273954;
-  font-family: sans-serif; }
+  /*font-family: sans-serif;*/
+  font: normal 15px/1.5 Helvetica Neue, Helvetica, Arial; }
 
 h1 {
   text-align: center;
@@ -52,43 +53,43 @@ h1 {
   font-family: "jubilat", sans-serif;
   color: white;
   font-size: 2.6em;
-  text-shadow: 0 0 1em black;
+  /*text-shadow: 0 0 1em black;*/
   background-color: #151f2d;
-  background-image: -moz-linear-gradient(top, #1f2d42, #070a0e);
+/*  background-image: -moz-linear-gradient(top, #1f2d42, #070a0e);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1f2d42), to(#070a0e));
   background-image: -webkit-linear-gradient(top, #1f2d42, #070a0e);
   background-image: -o-linear-gradient(top, #1f2d42, #070a0e);
   background-image: linear-gradient(to bottom, #1f2d42, #070a0e);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1F2D42', endColorstr='#FF070A0E', GradientType=0);
-  box-shadow: 0 -0.2em 1em #070a0e; }
+  box-shadow: 0 -0.2em 1em #070a0e;*/ }
 
 .maincontent {
   max-width: 40em;
   margin: 0 auto;
   width: 95%; }
   .maincontent p {
-    padding: 5em 1em 1em;
+    padding: 3em 1em 1em;
     font-size: 1em;
     line-height: 1.4;
-    text-shadow: 1px 1px 0 #fcfdfe; }
+    /*text-shadow: 1px 1px 0 #fcfdfe;*/ }
 
 #conflist li {
   border: 1px solid #b7c6dd;
   border-radius: .4em;
   margin: 2em 0em;
-  box-shadow: inset 0 0.5em 2em #ebeff5, 0 0 1em #b7c6dd;
+/*  box-shadow: inset 0 0.5em 2em #ebeff5, 0 0 1em #b7c6dd;*/
   background-color: #d9e1ed;
   padding: 1em 1em 0;
   text-shadow: 1px 1px 0px #ebeff5;
   -webkit-transition: all 0.05s ease-in-out;
   -moz-transition: all 0.05s ease-in-out;
   transition: all 0.05s ease-in-out; }
-  #conflist li:hover {
+  /*#conflist li:hover {
     background-color: #e4eaf2;
     position: relative;
     bottom: 2px;
-    box-shadow: inset 0 0.5em 2em white, 0 0.2em 1em #a5b9d5; }
+    box-shadow: inset 0 0.5em 2em white, 0 0.2em 1em #a5b9d5; }*/
   #conflist li:first-of-type {
     border: none;
     background-color: #e0e7f1; }
